@@ -34,6 +34,14 @@
         <Trigger Active="False" Regex="Chaos starts using Longitudinal Implosion on Chaos" SoundData="sides safe" SoundType="3" CategoryRestrict="False" Category="Omega" Timer="False" TimerName="" Tabbed="False" />
         <Trigger Active="False" Regex="Suzaku begins casting Mesmerizing Melody." SoundData="pull pull pull" SoundType="3" CategoryRestrict="False" Category="Suzaku" Timer="False" TimerName="" Tabbed="False" />
         <Trigger Active="False" Regex="Suzaku begins casting Ruthless Refrain." SoundData="push push push" SoundType="3" CategoryRestrict="False" Category="Suzaku" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Elia Bee:.{4}:.{4}:004F:.{4}:.{4}:.{4}:" SoundData="One right" SoundType="3" CategoryRestrict="False" Category="TEA" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Elia Bee:.{4}:.{4}:0050:.{4}:.{4}:.{4}:" SoundData="Two right" SoundType="3" CategoryRestrict="False" Category="TEA" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Elia Bee:.{4}:.{4}:0051:.{4}:.{4}:.{4}:" SoundData="Three left" SoundType="3" CategoryRestrict="False" Category="TEA" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Elia Bee:.{4}:.{4}:0052:.{4}:.{4}:.{4}:" SoundData="Four left" SoundType="3" CategoryRestrict="False" Category="TEA" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Elia Bee:.{4}:.{4}:0053:.{4}:.{4}:.{4}:" SoundData="Five right" SoundType="3" CategoryRestrict="False" Category="TEA" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Elia Bee:.{4}:.{4}:0054:.{4}:.{4}:.{4}:" SoundData="Six Right" SoundType="3" CategoryRestrict="False" Category="TEA" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Elia Bee:.{4}:.{4}:0055:.{4}:.{4}:.{4}:" SoundData="Seven Left" SoundType="3" CategoryRestrict="False" Category="TEA" Timer="False" TimerName="" Tabbed="False" />
+        <Trigger Active="True" Regex="Elia Bee:.{4}:.{4}:0056:.{4}:.{4}:.{4}:" SoundData="Eight Left" SoundType="3" CategoryRestrict="False" Category="TEA" Timer="False" TimerName="" Tabbed="False" />
         <Trigger Active="True" Regex="uses Battle Litany" SoundData="Litany" SoundType="3" CategoryRestrict="False" Category="Timers" Timer="True" TimerName="Litany" Tabbed="False" />
         <Trigger Active="True" Regex="uses Battle Voice" SoundData="Voice" SoundType="3" CategoryRestrict="False" Category="Timers" Timer="True" TimerName="Voice" Tabbed="False" />
         <Trigger Active="True" Regex="uses Chain Stratagem" SoundData="Chain" SoundType="3" CategoryRestrict="False" Category="Timers" Timer="True" TimerName="Chain" Tabbed="False" />
@@ -45,12 +53,12 @@
         <Trigger Active="False" Regex="Titan:[^:]*:Rock Throw:[^:]*:Elia Bee" SoundData="bomb Gaol" SoundType="3" CategoryRestrict="False" Category="Ultimate Ultima" Timer="False" TimerName="" Tabbed="False" />
     </CustomTriggers>
     <SpellTimers>
-        <Spell Checked="True" Name="Voice" Timer="180" OnlyMasterTicks="False" Restrict="False" Absolute="False" StartWav="none" WarningWav="none" WarningValue="10" RadialDisplay="False" Modable="True" Tooltip="" FillColor="-8355585" Panel1="True" Panel2="False" RemoveValue="0" Category="Brd" RestrictCategory="False" />
-        <Spell Checked="True" Name="Litany" Timer="180" OnlyMasterTicks="False" Restrict="False" Absolute="False" StartWav="none" WarningWav="none" WarningValue="10" RadialDisplay="False" Modable="True" Tooltip="" FillColor="-16776961" Panel1="True" Panel2="False" RemoveValue="0" Category="Drg" RestrictCategory="False" />
-        <Spell Checked="True" Name="Trick" Timer="60" OnlyMasterTicks="False" Restrict="False" Absolute="False" StartWav="none" WarningWav="none" WarningValue="10" RadialDisplay="False" Modable="True" Tooltip="" FillColor="-256" Panel1="True" Panel2="False" RemoveValue="0" Category="Ninja" RestrictCategory="False" />
-        <Spell Checked="True" Name="Chain" Timer="120" OnlyMasterTicks="False" Restrict="False" Absolute="False" StartWav="none" WarningWav="none" WarningValue="10" RadialDisplay="False" Modable="True" Tooltip="" FillColor="-16760704" Panel1="True" Panel2="False" RemoveValue="0" Category="Sch" RestrictCategory="False" />
-        <Spell Checked="True" Name="FeyWind" Timer="60" OnlyMasterTicks="False" Restrict="False" Absolute="False" StartWav="none" WarningWav="none" WarningValue="10" RadialDisplay="False" Modable="True" Tooltip="" FillColor="-16744384" Panel1="True" Panel2="False" RemoveValue="0" Category="Sch" RestrictCategory="False" />
-        <Spell Checked="True" Name="Contagion" Timer="60" OnlyMasterTicks="False" Restrict="False" Absolute="False" StartWav="none" WarningWav="none" WarningValue="10" RadialDisplay="False" Modable="True" Tooltip="" FillColor="-16711681" Panel1="True" Panel2="False" RemoveValue="0" Category="Smn" RestrictCategory="False" />
+        <Spell Name="Voice" Timer="180" OnlyMasterTicks="False" Restrict="False" Absolute="False" WarningValue="10" RadialDisplay="False" Modable="True" Tooltip="" FillColor="-8355585" Panel1="True" Panel2="False" RemoveValue="0" Category="Brd" RestrictCategory="False" />
+        <Spell Name="Litany" Timer="180" OnlyMasterTicks="False" Restrict="False" Absolute="False" WarningValue="10" RadialDisplay="False" Modable="True" Tooltip="" FillColor="-16776961" Panel1="True" Panel2="False" RemoveValue="0" Category="Drg" RestrictCategory="False" />
+        <Spell Name="Trick" Timer="60" OnlyMasterTicks="False" Restrict="False" Absolute="False" WarningValue="10" RadialDisplay="False" Modable="True" Tooltip="" FillColor="-256" Panel1="True" Panel2="False" RemoveValue="0" Category="Ninja" RestrictCategory="False" />
+        <Spell Name="Chain" Timer="120" OnlyMasterTicks="False" Restrict="False" Absolute="False" WarningValue="10" RadialDisplay="False" Modable="True" Tooltip="" FillColor="-16760704" Panel1="True" Panel2="False" RemoveValue="0" Category="Sch" RestrictCategory="False" />
+        <Spell Name="FeyWind" Timer="60" OnlyMasterTicks="False" Restrict="False" Absolute="False" WarningValue="10" RadialDisplay="False" Modable="True" Tooltip="" FillColor="-16744384" Panel1="True" Panel2="False" RemoveValue="0" Category="Sch" RestrictCategory="False" />
+        <Spell Name="Contagion" Timer="60" OnlyMasterTicks="False" Restrict="False" Absolute="False" WarningValue="10" RadialDisplay="False" Modable="True" Tooltip="" FillColor="-16711681" Panel1="True" Panel2="False" RemoveValue="0" Category="Smn" RestrictCategory="False" />
     </SpellTimers>
     <SettingsSerializer />
 </Config>
