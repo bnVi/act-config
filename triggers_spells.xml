@@ -34,14 +34,6 @@
         <Trigger Active="False" Regex="Chaos starts using Longitudinal Implosion on Chaos" SoundData="sides safe" SoundType="3" CategoryRestrict="False" Category="Omega" Timer="False" TimerName="" Tabbed="False" />
         <Trigger Active="False" Regex="Suzaku begins casting Mesmerizing Melody." SoundData="pull pull pull" SoundType="3" CategoryRestrict="False" Category="Suzaku" Timer="False" TimerName="" Tabbed="False" />
         <Trigger Active="False" Regex="Suzaku begins casting Ruthless Refrain." SoundData="push push push" SoundType="3" CategoryRestrict="False" Category="Suzaku" Timer="False" TimerName="" Tabbed="False" />
-        <Trigger Active="True" Regex="Elia Bee:.{4}:.{4}:004F:.{4}:.{4}:.{4}:" SoundData="One right" SoundType="3" CategoryRestrict="False" Category="TEA" Timer="False" TimerName="" Tabbed="False" />
-        <Trigger Active="True" Regex="Elia Bee:.{4}:.{4}:0050:.{4}:.{4}:.{4}:" SoundData="Two right" SoundType="3" CategoryRestrict="False" Category="TEA" Timer="False" TimerName="" Tabbed="False" />
-        <Trigger Active="True" Regex="Elia Bee:.{4}:.{4}:0051:.{4}:.{4}:.{4}:" SoundData="Three left" SoundType="3" CategoryRestrict="False" Category="TEA" Timer="False" TimerName="" Tabbed="False" />
-        <Trigger Active="True" Regex="Elia Bee:.{4}:.{4}:0052:.{4}:.{4}:.{4}:" SoundData="Four left" SoundType="3" CategoryRestrict="False" Category="TEA" Timer="False" TimerName="" Tabbed="False" />
-        <Trigger Active="True" Regex="Elia Bee:.{4}:.{4}:0053:.{4}:.{4}:.{4}:" SoundData="Five right" SoundType="3" CategoryRestrict="False" Category="TEA" Timer="False" TimerName="" Tabbed="False" />
-        <Trigger Active="True" Regex="Elia Bee:.{4}:.{4}:0054:.{4}:.{4}:.{4}:" SoundData="Six Right" SoundType="3" CategoryRestrict="False" Category="TEA" Timer="False" TimerName="" Tabbed="False" />
-        <Trigger Active="True" Regex="Elia Bee:.{4}:.{4}:0055:.{4}:.{4}:.{4}:" SoundData="Seven Left" SoundType="3" CategoryRestrict="False" Category="TEA" Timer="False" TimerName="" Tabbed="False" />
-        <Trigger Active="True" Regex="Elia Bee:.{4}:.{4}:0056:.{4}:.{4}:.{4}:" SoundData="Eight Left" SoundType="3" CategoryRestrict="False" Category="TEA" Timer="False" TimerName="" Tabbed="False" />
         <Trigger Active="True" Regex="uses Battle Litany" SoundData="Litany" SoundType="3" CategoryRestrict="False" Category="Timers" Timer="True" TimerName="Litany" Tabbed="False" />
         <Trigger Active="True" Regex="uses Battle Voice" SoundData="Voice" SoundType="3" CategoryRestrict="False" Category="Timers" Timer="True" TimerName="Voice" Tabbed="False" />
         <Trigger Active="True" Regex="uses Chain Stratagem" SoundData="Chain" SoundType="3" CategoryRestrict="False" Category="Timers" Timer="True" TimerName="Chain" Tabbed="False" />
